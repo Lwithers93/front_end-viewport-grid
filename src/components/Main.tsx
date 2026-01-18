@@ -14,7 +14,7 @@ export default function Main({ rows, cols, setRows, setCols }: MainProps) {
       <div className="MainHeader">
         <h1 className="textGradient">Dynamic Viewport Grid</h1>
         <p>Update Number of Rows &amp; Columns in Sidebar</p>
-        {cols < 7 && (
+        {rows < 7 && (
           <p id="gridDescription">
             Each grid cell contains a viewport with a unique identifier and the
             viewport dimensions (WxH)
