@@ -1,0 +1,145 @@
+* {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  background-color: #f0fdf4;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.BurgerCollapsed {
+  width: 50px;
+  min-width: 50px;
+  @media (min-width: 700px) {
+    max-width: 50px;
+  }
+}
+
+.BurgerExpanded {
+  width: fit-content;
+  max-width: 150px;
+  @media (min-width: 700px) {
+    max-width: 200px;
+  }
+}
+
+.Collapsed {
+  display: none;
+}
+
+.Grid {
+  display: grid;
+  flex: 1;
+  gap: 2px;
+}
+
+.GridCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1px;
+}
+
+.GridDimensions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1px;
+  @media (max-width: 750px) {
+    font-size: 0.75rem;
+  }
+  @media (max-width: 600px) {
+    font-size: 0.5rem;
+  }
+}
+
+.GridId {
+  padding: 1px 0 0 1px;
+}
+
+.GridInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 6px;
+  label,
+  input {
+    margin: 0 auto;
+    min-width: 100%;
+    text-align: center;
+  }
+}
+
+.GridViewPort {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding: 1px;
+  border: 0.5px solid gray;
+  box-shadow: #bbf7d0;
+  border-radius: 5px;
+  height: 95%;
+  background-color: #bbf7d0;
+  .GridId,
+  .GridDimensions {
+    @media (max-width: 750px) {
+      font-size: 0.75rem;
+    }
+    @media (max-width: 600px) {
+      font-size: 0.5rem;
+    }
+  }
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.MainHeader {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 10vh;
+  padding: 12px 0;
+  h1,
+  p {
+    margin: 0 auto;
+    text-align: center;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+  #gridDescription {
+    font-size: 1rem;
+  }
+}
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0fdf4;
+  border-right: 0.5px solid gray;
+  transition:
+    width 0.5s ease,
+    max-width 0.5s ease;
+  button {
+    background-color: #bbf7d0;
+    padding: 2px;
+  }
+}
+
+.textGradient {
+  background: -webkit-linear-gradient(#4ade80, #15803d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
