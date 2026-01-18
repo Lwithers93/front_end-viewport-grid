@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/front_end-viewport-grid/static/css/main.632c9aa7.css",
+    "main.js": "/front_end-viewport-grid/static/js/main.b5db6f41.js",
+    "index.html": "/front_end-viewport-grid/index.html",
+    "main.632c9aa7.css.map": "/front_end-viewport-grid/static/css/main.632c9aa7.css.map",
+    "main.b5db6f41.js.map": "/front_end-viewport-grid/static/js/main.b5db6f41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.632c9aa7.css",
+    "static/js/main.b5db6f41.js"
+  ]
+}
