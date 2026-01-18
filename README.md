@@ -20,15 +20,3 @@ Created using a provided template, based off create-react-app, this project is b
 
 A small number of unit tests have been created and passed using npm run tests - See /src/_tests_/ for list of unit tests.
 Tests relate to HTML input element accessibility and state variable updates for Grid cells.
-
-## Production Build
-
-### `npm run build`
-
-Creates an optimized production bundle in the `build` directory.
-
-## Testing
-
-### `npm test`
-
-Launches the test runner in interactive watch mode. Use this command to verify unit tests before submission.
